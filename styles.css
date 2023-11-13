@@ -1,0 +1,376 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1rem;
+    border-bottom: 2px solid #eaeaec;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+}
+
+.logoSide{
+    padding-left: 2rem;
+}
+.logoSide>p{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.logoSide>p>span{
+    color: #ee3646;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.navigation>a{
+    color: #4b4b4d;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>a:nth-child(2){
+    color: red;
+    border-bottom: 4px solid red;
+}
+
+.download{
+    background-color: black;
+    border-radius: 7px;
+    padding: .7rem 1.5rem;
+    margin-right: 2rem;
+
+}
+.download>a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.download>a>i{
+margin-right: 8px;
+}
+
+.genWrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+.headSection{
+    position: relative;
+    /* border: 2px solid red; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.headSection>h1{
+    margin-left: 15.5rem;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.headSection>p{
+    margin-left: 8rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: .5;
+}
+
+.headSection>input{
+    outline: none;
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 3rem;
+    height: 4rem;
+    width: 50rem;
+    padding-left: 5rem;
+}
+
+.headSection>input::placeholder{
+    font-size: 1.5rem;
+}
+
+.blogWrapper{margin-top: 4.5rem;
+    /* border: 2px solid blue; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageSide{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: 100%;
+    width: 60%;
+}
+
+.imageSide>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.contentSide{
+    padding-left: 2rem;
+    padding-top: 4rem;
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 50%;
+}
+.contentSide>p{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.contentSide>h1{
+    padding-block: 1.8rem;
+    font-size: 3.1rem;
+}
+
+.userImageArea{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.userImage{
+    /* border: 2px solid blue; */
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+}
+.userImage>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.userImageArea>p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    opacity: .7;
+}
+
+.section3{
+    height: 60vh;
+}
+.blogsWrapper{
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+    /* border: 2px solid red; */
+}
+
+.blogCard{
+    width: 30%;
+}
+
+.blogCard>img{
+    border-radius: 15px;
+    width: 100%;
+}
+.blogCard>p{
+    padding-block: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: red;
+}
+.blogCard>h1{
+    padding-bottom: 1rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+.blogCard>h2{
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    opacity: .7;
+}
+.blogUserWrapper{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+}
+.blogUserWrapper>img{
+
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.blogUserWrapper>p{
+    font-size: .9rem;
+    font-weight: 900;
+    opacity: .7;
+}
+
+.blogPost{
+    margin-block: 2.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    /* border: 2px solid red; */
+}
+
+.contactWrapper{
+    background-color: #feeaec;
+    margin-top: 4rem;
+    display: flex;
+    height: 40vh;
+    /* border: 2px solid black; */
+}
+
+.formSide{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 60%;
+}
+.contactImage{
+    /* border: 2px solid blue; */
+    width: 40%;
+}
+.section5{
+    height: 60vh;
+}
+
+.formSide>h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-left: 3.3rem;
+    color: #ed2b3b;
+}
+.formSide>h2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: -7rem;
+    margin-left: 1.3rem;
+    opacity: .8;
+}
+
+.formDiv{
+    margin-top: -9rem;
+}
+
+
+form>input{
+    border-radius: 8px;
+    height: 4rem;
+    width: 25rem;
+    border: none;
+    outline: none;
+}
+
+form>button{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    height: 4rem;
+    width: 10rem;
+}
+form>input::placeholder{
+    padding-left: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.contactImage>img{
+    width: 100%;
+    height: 100%;
+}
+
+.footerSection{
+    background-color: black;
+}
+
+.topSide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.riven>h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: red;
+}
+
+.footerNav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.footerNav>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.socialIcons>i{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.socialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bottomSide{
+    padding-top: 11rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bottomRight>h1{
+    font-size: 1rem;
+    color: #3d3d40;
+}
+
+.bottomSide>h1{
+    font-size: 1rem;
+    color: #3d3d40;
+}
+
+.green>p{
+    color: #47caab;
+}
+.blue>p{
+    color: blue;
+}
+.purple>p{
+    color: purple;
+}
